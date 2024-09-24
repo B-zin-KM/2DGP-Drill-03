@@ -24,8 +24,7 @@ def run_circle():
         y = r * math.sin(theta) + cy
         
         draw_boy(x, y)
-
-        
+   
     pass
 
 def run_top():
@@ -46,17 +45,21 @@ def run_right():
 
 def run_bottom():
     print('BOTTOM')
+
+    for x in range(800, 0, -10):
+        draw_boy(x, 0)
     pass
 
 def run_left():
     print('LEFT')
+    
     pass
 
 def run_rectangle():
     print('RECTANGLE')
 
     # run_top()
-    run_right()
+    # run_right()
     run_bottom()
     run_left()
     
