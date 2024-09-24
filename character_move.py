@@ -71,7 +71,12 @@ def run_rectangle():
 
 def run_left_for_top():
     print('1')
-    
+
+    y = 50;
+    for x in range(50, 400, 10):
+        y = y + 13
+        draw_boy(x, y)
+        
     pass
 
 def run_top_for_right():
