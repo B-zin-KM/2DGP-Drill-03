@@ -77,7 +77,6 @@ def run_left_for_top():
         y = y + 13
         draw_boy(x, y)
 
-    print (y)
     pass
 
 def run_top_for_right():
@@ -92,6 +91,9 @@ def run_top_for_right():
 
 def run_right_for_left():
     print('3')
+
+    for x in range(750, 50, -10):
+        draw_boy(x, 50)
     
     pass
     
@@ -106,10 +108,10 @@ def run_triangle():
 
 
 while True:
-    # run_circle()
-    # run_rectangle()
+    run_circle()
+    run_rectangle()
     run_triangle()
-    break
+    
 
 
 close_canvas()
