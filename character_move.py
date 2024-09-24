@@ -69,10 +69,36 @@ def run_rectangle():
     
     pass
 
+def run_left_for_top():
+    print('1')
+    
+    pass
+
+def run_top_for_right():
+    print('2')
+          
+    pass
+
+def run_right_for_left():
+    print('3')
+    
+    pass
+    
+def run_triangle():
+    print('TRIANGLE')
+
+    run_left_for_top()
+    run_top_for_right()
+    run_right_for_left()
+    
+    pass
+
 
 while True:
-    run_circle()
-    run_rectangle()
+    # run_circle()
+    # run_rectangle()
+    run_triangle()
+    break
 
 
 close_canvas()
